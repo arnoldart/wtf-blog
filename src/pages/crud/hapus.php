@@ -1,6 +1,6 @@
 <?php
 
-require "../../config/conn.php";
+require "../../../config/conn.php";
 
 try {
   $sql = "DELETE FROM tb_blog WHERE id='".$_GET['id']."'";
